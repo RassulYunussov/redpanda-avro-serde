@@ -1,0 +1,15 @@
+{
+  "namespace": "org.example.avro.model",
+  "type": "record",
+  "name": "Teacher",
+  "fields": [
+    {
+      "name": "teacherName",
+      "type": "string"
+    },
+    {
+      "name": "teacherId",
+      "type": "string"
+    }
+  ]
+}

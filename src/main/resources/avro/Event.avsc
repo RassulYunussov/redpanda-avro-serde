@@ -1,0 +1,11 @@
+{
+  "type": "record",
+  "namespace": "org.example.avro.model",
+  "name": "Event",
+  "fields" : [
+    {"name": "entry", "type": [
+      "org.example.avro.model.Student",
+      "org.example.avro.model.Teacher"
+    ]}
+  ]
+}
